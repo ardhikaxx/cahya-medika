@@ -92,12 +92,13 @@ export default function Kontak() {
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm h-72 relative">
                 <iframe
                   title="Peta Lokasi RS Cahya Medika Bondowoso"
-                  src="https://maps.google.com/maps?q=Jl.+Raya+Pakisan+No.24+Bondowoso&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!3m2!1sid!2sid!4v1785914386715!5m2!1sid!2sid!6m8!1m7!1sxe8DovVGHxB8NkcwJZD6Nw!2m2!1d-7.926717455983884!2d113.8449873767974!3f291.9583219243946!4f-8.96605183697082!5f0.7820865974627469"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
+                  referrerPolicy="strict-origin-when-cross-origin"
                 ></iframe>
               </div>
             </div>
