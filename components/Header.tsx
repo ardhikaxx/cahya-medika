@@ -199,14 +199,6 @@ export default function Header() {
             {/* CTA Buttons */}
             <div className="hidden lg:flex items-center gap-2 shrink-0">
               <a
-                href="https://wa.me/6285257103300"
-                target="_blank"
-                className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold text-green-700 bg-green-50 hover:bg-green-100 transition-colors border border-green-200"
-              >
-                <MessageCircle className="w-4 h-4" />
-                WhatsApp
-              </a>
-              <a
                 href="tel:03325557554"
                 className="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold text-primary bg-primary/8 hover:bg-primary/12 transition-colors border border-primary/20"
               >
@@ -283,14 +275,6 @@ export default function Header() {
                 ))}
                 
                 <div className="pt-4 border-t border-slate-100 mt-4 flex flex-col gap-2">
-                  <a
-                    href="https://wa.me/6285257103300"
-                    target="_blank"
-                    className="flex items-center justify-center gap-2 py-3 rounded-lg font-semibold text-green-700 bg-green-50 border border-green-200"
-                  >
-                    <MessageCircle className="w-4 h-4" />
-                    WhatsApp 0852-5710-3300
-                  </a>
                   <Link
                     href="/dokter-spesialis"
                     className="flex items-center justify-center py-3 rounded-lg font-semibold text-white bg-primary"
