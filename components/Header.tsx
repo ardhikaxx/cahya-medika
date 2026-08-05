@@ -59,8 +59,8 @@ function DropdownMenu({ item, pathname }: { item: NavItem; pathname: string }) {
       <Link
         href={item.href}
         className={cn(
-          "flex items-center gap-1 text-[14px] font-semibold transition-colors py-2",
-          isActive ? "text-primary" : "text-slate-700 hover:text-primary"
+          "flex items-center gap-1.5 px-3 py-2 text-[14px] font-semibold transition-colors rounded-lg",
+          isActive ? "text-primary bg-primary/5" : "text-slate-700 hover:text-primary hover:bg-slate-50"
         )}
       >
         {item.name}
@@ -175,7 +175,7 @@ export default function Header() {
             </Link>
 
             {/* Desktop Nav */}
-            <nav className="hidden xl:flex items-center gap-1">
+            <nav className="hidden xl:flex items-center gap-2">
               {navItems.map((item) => (
                 item.children ? (
                   <DropdownMenu key={item.name} item={item} pathname={pathname} />
