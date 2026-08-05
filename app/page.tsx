@@ -103,10 +103,7 @@ export default function Home() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-[52px] font-extrabold tracking-tight text-slate-900 leading-[1.15]">
-                Pelayanan Kesehatan{" "}
-                <span className="text-primary">Modern</span>{" "}
-                dengan Standar Terbaik untuk{" "}
-                <span className="text-secondary">Keluarga Anda</span>
+                Pelayanan Kesehatan Modern Terbaik untuk Keluarga Anda
               </h1>
 
               <p className="text-lg text-slate-600 max-w-xl leading-relaxed">
