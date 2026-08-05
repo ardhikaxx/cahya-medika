@@ -92,7 +92,7 @@ export default function Kontak() {
               <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-sm h-72 relative">
                 <iframe
                   title="Peta Lokasi RS Cahya Medika Bondowoso"
-                  src="https://www.google.com/maps/embed?pb=!3m2!1sid!2sid!4v1785914386715!5m2!1sid!2sid!6m8!1m7!1sxe8DovVGHxB8NkcwJZD6Nw!2m2!1d-7.926717455983884!2d113.8449873767974!3f291.9583219243946!4f-8.96605183697082!5f0.7820865974627469"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.6966600757664!2d113.84286342619177!3d-7.926717455983884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6c57dd06a79fd%3A0x5d926567be1e0d34!2sRumah%20Sakit%20Cahya%20Medika!5e0!3m2!1sid!2sid!4v1785914493319!5m2!1sid!2sid"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
