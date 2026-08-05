@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone, MessageCircle, ChevronDown, Cross } from "lucide-react";
@@ -170,9 +171,7 @@ export default function Header() {
             
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 shrink-0">
-              <div className="w-9 h-9 bg-primary rounded-lg flex items-center justify-center text-white">
-                <Cross className="w-5 h-5" strokeWidth={2.5} />
-              </div>
+              <Image src="/logo.png" alt="Cahya Medika Logo" width={36} height={36} className="w-10 h-auto object-contain" />
               <div className="flex flex-col leading-none">
                 <span className="font-extrabold text-[17px] text-primary tracking-tight">Cahya Medika</span>
                 <span className="text-[10px] uppercase tracking-[0.15em] text-slate-400 font-semibold mt-0.5">Rumah Sakit · Bondowoso</span>

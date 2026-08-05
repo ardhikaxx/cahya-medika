@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Clock } from "lucide-react";
 import { Cross } from "lucide-react";
 
@@ -43,9 +44,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2 space-y-6">
             <Link href="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white">
-                <Cross className="w-6 h-6" strokeWidth={2.5} />
-              </div>
+              <Image src="/logo.png" alt="Cahya Medika Logo" width={40} height={40} className="w-10 h-auto object-contain" />
               <div className="flex flex-col leading-none">
                 <span className="font-extrabold text-xl text-primary tracking-tight">Cahya Medika</span>
                 <span className="text-xs uppercase tracking-widest text-slate-400 font-semibold mt-0.5">Rumah Sakit · Bondowoso</span>
