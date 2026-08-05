@@ -157,7 +157,7 @@ export default function Home() {
             >
               <div className="relative w-full h-[480px] lg:h-[560px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/hero.jpg"
+                  src="/images/rs-1.png"
                   alt="Dokter Profesional RS Cahya Medika Bondowoso"
                   fill
                   priority
@@ -313,7 +313,7 @@ export default function Home() {
             >
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                 <Image
-                  src="/images/hero.jpg"
+                  src="/images/rs-2.png"
                   alt="Gedung RS Cahya Medika Bondowoso"
                   fill
                   className="object-cover"
@@ -467,7 +467,7 @@ export default function Home() {
               >
                 <div className="relative h-52 overflow-hidden">
                   <Image
-                    src="/images/hero.jpg"
+                    src={i % 2 === 0 ? "/images/rs-4.png" : "/images/rs-5.png"}
                     alt={doc.name}
                     fill
                     className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
@@ -504,7 +504,7 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="relative h-72 lg:h-auto min-h-[400px] order-2 lg:order-1">
                 <Image
-                  src="/images/hero.jpg"
+                  src="/images/rs-3.png"
                   alt="Program Hamil RS Cahya Medika"
                   fill
                   className="object-cover"
@@ -598,7 +598,7 @@ export default function Home() {
                 <Link href="/artikel-kesehatan">
                   <div className="relative h-52 rounded-xl overflow-hidden mb-5 shadow-sm">
                     <Image
-                      src="/images/hero.jpg"
+                      src={i % 2 === 0 ? "/images/rs-5.png" : "/images/rs-4.png"}
                       alt={article.title}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
