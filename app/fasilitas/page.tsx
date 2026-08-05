@@ -46,7 +46,7 @@ const facilities: Facility[] = [
     description:
       'Kamar perawatan premium dengan fasilitas lengkap — AC, TV, sofa keluarga, dan kamar mandi pribadi untuk kenyamanan optimal selama pemulihan.',
     category: 'Rawat Inap',
-    image: '/images/hero.jpg',
+    image: '/images/rs-4.png',
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const facilities: Facility[] = [
     description:
       'Kamar perawatan nyaman dengan fasilitas standar tinggi, ideal untuk pasien yang menginginkan kenyamanan dengan biaya terjangkau.',
     category: 'Rawat Inap',
-    image: '/images/hero.jpg',
+    image: '/images/rs-4.png',
   },
   {
     id: 3,
@@ -62,7 +62,7 @@ const facilities: Facility[] = [
     description:
       'Unit perawatan intensif dengan monitoring 24 jam, dilengkapi peralatan medis canggih dan ditangani tim dokter serta perawat terlatih.',
     category: 'Rawat Inap',
-    image: '/images/hero.jpg',
+    image: '/images/rs-4.png',
   },
   {
     id: 4,
@@ -70,7 +70,7 @@ const facilities: Facility[] = [
     description:
       'Unit gawat darurat berteknologi tinggi yang siap melayani pasien selama 24 jam dengan respons cepat dan penanganan darurat terpadu.',
     category: 'IGD',
-    image: '/images/hero.jpg',
+    image: '/images/rs-3.png',
   },
   {
     id: 5,
@@ -102,7 +102,7 @@ const facilities: Facility[] = [
     description:
       'Ruang tunggu modern dan bersih dengan tempat duduk ergonomis, akses Wi-Fi gratis, dan suasana yang menenangkan.',
     category: 'Rawat Jalan',
-    image: '/images/hero.jpg',
+    image: '/images/rs-1.png',
   },
   {
     id: 9,

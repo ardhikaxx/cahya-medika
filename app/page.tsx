@@ -157,8 +157,8 @@ export default function Home() {
             >
               <div className="relative w-full h-[480px] lg:h-[560px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/rs-1.png"
-                  alt="Dokter Profesional RS Cahya Medika Bondowoso"
+                  src="/images/hero-image.png"
+                  alt="Lobby RS Cahya Medika Bondowoso"
                   fill
                   priority
                   className="object-cover"
@@ -313,8 +313,8 @@ export default function Home() {
             >
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
                 <Image
-                  src="/images/rs-2.png"
-                  alt="Gedung RS Cahya Medika Bondowoso"
+                  src="/images/rs-1.png"
+                  alt="Ruang Tunggu RS Cahya Medika Bondowoso"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -504,8 +504,8 @@ export default function Home() {
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="relative h-72 lg:h-auto min-h-[400px] order-2 lg:order-1">
                 <Image
-                  src="/images/rs-3.png"
-                  alt="Program Hamil RS Cahya Medika"
+                  src="/images/rs-4.png"
+                  alt="Ruang Perawatan Pasien RS Cahya Medika"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -637,6 +637,15 @@ export default function Home() {
       <section className="py-16 bg-primary">
         <div className="container mx-auto max-w-7xl px-4 md:px-6">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8 text-white">
+            <div className="relative hidden lg:block w-96 h-64 shrink-0 overflow-hidden rounded-2xl">
+              <Image
+                src="/images/rs-2.png"
+                alt="Mobil Ambulans RS Cahya Medika"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 0vw, 384px"
+              />
+            </div>
             <div className="text-center lg:text-left">
               <div className="flex items-center gap-2 mb-3 justify-center lg:justify-start">
                 <div className="w-2.5 h-2.5 rounded-full bg-red-400 animate-pulse" />

@@ -26,8 +26,8 @@ const galleryCategories = [
 const galleryItems: GalleryItem[] = [
   {
     id: 1,
-    src: '/images/hero.jpg',
-    caption: 'Gedung Utama RS Cahya Medika',
+    src: '/images/rs-5.png',
+    caption: 'Lobby RS Cahya Medika',
     category: 'Gedung & Fasilitas',
     aspectClass: 'aspect-[4/3]',
   },
@@ -40,8 +40,8 @@ const galleryItems: GalleryItem[] = [
   },
   {
     id: 3,
-    src: '/images/hero.jpg',
-    caption: 'Lobby dan Ruang Tunggu Pasien',
+    src: '/images/rs-1.png',
+    caption: 'Ruang Tunggu Pasien',
     category: 'Gedung & Fasilitas',
     aspectClass: 'aspect-square',
   },
@@ -61,8 +61,8 @@ const galleryItems: GalleryItem[] = [
   },
   {
     id: 6,
-    src: '/images/hero.jpg',
-    caption: 'Ruang ICU Berteknologi Tinggi',
+    src: '/images/rs-4.png',
+    caption: 'Ruang Perawatan Pasien',
     category: 'Pelayanan Medis',
     aspectClass: 'aspect-[3/4]',
   },
@@ -75,7 +75,7 @@ const galleryItems: GalleryItem[] = [
   },
   {
     id: 8,
-    src: '/images/hero.jpg',
+    src: '/images/rs-4.png',
     caption: 'Pelayanan Rawat Inap VIP',
     category: 'Gedung & Fasilitas',
     aspectClass: 'aspect-square',
@@ -131,7 +131,7 @@ const galleryItems: GalleryItem[] = [
   },
   {
     id: 16,
-    src: '/images/hero.jpg',
+    src: '/images/rs-3.png',
     caption: 'Instalasi Gawat Darurat 24 Jam',
     category: 'Pelayanan Medis',
     aspectClass: 'aspect-[4/3]',
