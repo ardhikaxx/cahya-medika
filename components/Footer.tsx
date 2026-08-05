@@ -116,7 +116,7 @@ export default function Footer() {
             <h3 className="font-bold text-base text-slate-800 mb-5">Layanan Medis</h3>
             <ul className="space-y-2.5">
               {footerLinks.layanan.map((link) => (
-                <li key={link.href}>
+                <li key={link.name}>
                   <Link
                     href={link.href}
                     className="text-sm text-slate-500 hover:text-primary transition-colors"
@@ -133,7 +133,7 @@ export default function Footer() {
             <h3 className="font-bold text-base text-slate-800 mb-5">Informasi Pasien</h3>
             <ul className="space-y-2.5">
               {footerLinks.pasien.map((link) => (
-                <li key={link.href}>
+                <li key={link.name}>
                   <Link
                     href={link.href}
                     className="text-sm text-slate-500 hover:text-primary transition-colors"
@@ -150,7 +150,7 @@ export default function Footer() {
             <h3 className="font-bold text-base text-slate-800 mb-5">Rumah Sakit</h3>
             <ul className="space-y-2.5">
               {footerLinks.rs.map((link) => (
-                <li key={link.href}>
+                <li key={link.name}>
                   <Link
                     href={link.href}
                     className="text-sm text-slate-500 hover:text-primary transition-colors"
