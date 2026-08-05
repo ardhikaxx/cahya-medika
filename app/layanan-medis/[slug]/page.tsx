@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { ChevronRight, ArrowLeft, MessageCircle, Info } from "lucide-react";
 
-export default function LayananDetail({ params }: { params: { slug: string } }) {
+export default async function LayananDetail({ params }: { params: Promise<{ slug: string }> }) {
+  const resolvedParams = await params;
   // Format slug to title (e.g. klinik-umum -> Klinik Umum)
-  const title = params.slug
+  const title = (resolvedParams.slug || "")
     .split('-')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
