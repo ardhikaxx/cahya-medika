@@ -10,16 +10,7 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
   { name: "Beranda", href: "/" },
-  { 
-    name: "Profil", 
-    href: "/tentang-kami",
-    children: [
-      { name: "Tentang Kami", href: "/tentang-kami" },
-      { name: "Fasilitas", href: "/fasilitas" },
-      { name: "Jadwal Dokter", href: "/dokter-spesialis" },
-      { name: "Kontak & Lokasi", href: "/kontak" },
-    ]
-  },
+  { name: "Tentang Kami", href: "/tentang-kami" },
   { 
     name: "Layanan", 
     href: "/layanan-medis",
@@ -31,17 +22,20 @@ const navItems = [
       { name: "Ruang Operasi", href: "/layanan-medis#operasi" },
     ]
   },
+  { name: "Jadwal Dokter", href: "/dokter-spesialis" },
   { 
-    name: "Informasi", 
+    name: "Fasilitas & Info", 
     href: "/informasi-pasien",
     children: [
-      { name: "Panduan Pasien", href: "/informasi-pasien" },
+      { name: "Fasilitas RS", href: "/fasilitas" },
+      { name: "Informasi Pasien", href: "/informasi-pasien" },
       { name: "Asuransi & Pembayaran", href: "/asuransi-pembayaran" },
       { name: "Artikel Kesehatan", href: "/artikel-kesehatan" },
       { name: "Galeri", href: "/galeri" },
       { name: "FAQ", href: "/faq" },
     ]
-  }
+  },
+  { name: "Kontak", href: "/kontak" },
 ];
 
 interface NavItem {
